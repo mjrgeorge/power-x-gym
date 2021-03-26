@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className="row footer p-4">
             <div className="col-md-4">
-                <h2 className="text-center">POWER X</h2>
+                <h2 className="text-center">POWER <span className="text-warning">X</span></h2>
             </div>
             <div className="col-md-2 d-flex flex-column">
                 <Link to="" className="text-white mb-2">Need Help?</Link>
