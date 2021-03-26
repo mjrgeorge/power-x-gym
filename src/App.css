@@ -1,0 +1,9 @@
+.header{
+    background-image: url(./images/image8.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 70vh;
+    font-weight: bolder;
+    color: black;
+}
