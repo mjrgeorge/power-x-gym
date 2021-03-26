@@ -6,7 +6,7 @@ const About = () => {
         <div className="row my-5 p-3">
             <div className="col-md-6"  style={{backgroundImage: `url(${AboutPic})`, backgroundPosition: "top center", backgroundSize: "cover"}}> </div>
             <div className="col-md-6">
-                <div className="pb-5 pl-5 pr-5 mb-5 ml-5 mr-5">
+                <div className="pb-5 pl-5 pr-5">
                 <h2 className="h1 text-light">ABOUT US</h2>
                 <h3 className="text-warning">WE ARE HERE TO DREAM!</h3>
                 <h3 className="text-dark">OUR TEAM IS HERE SURV YOU</h3>

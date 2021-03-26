@@ -8,39 +8,42 @@ import WhatsApp from '../../images/bxl-whatsapp.png';
 
 const Footer = () => {
     return (
-        <div className="row footer p-4">
-            <div className="col-md-4">
-                <h2 className="text-center">POWER <span className="text-warning">X</span></h2>
+        <footer className="footer p-4">
+            <div className="row">
+                <div className="col-md-4">
+                    <h2 className="text-center">POWER <span className="text-warning">X</span></h2>
+                </div>
+                <div className="col-md-2 d-flex flex-column">
+                    <Link to="" className="text-white mb-2">Need Help?</Link>
+                    <Link to="" className="text-white mb-2">Help Center</Link>
+                    <Link to="" className="text-white mb-2">Email Support</Link>
+                    <Link to="" className="text-white mb-2">Live Chat</Link>
+                    <Link to="" className="text-white mb-2">Gift Certificates</Link>
+                    <Link to="" className="text-white mb-2">Send Us Feedback</Link>
+                </div>
+                <div className="col-md-2 d-flex flex-column">
+                    <Link to="" className="text-white mb-2">Digital Resources</Link>
+                    <Link to="" className="text-white mb-2">Articles</Link>
+                    <Link to="" className="text-white mb-2">E-books</Link>
+                </div>
+                <div className="col-md-2 d-flex flex-column">
+                    <Link to="" className="text-white mb-2">Connect with Us</Link>
+                    <Link to="" className="text-white mb-2">
+                        <img className="footer_icon mr-2" src={YouTube} alt="YouTube" />
+                        <img className="footer_icon mr-2" src={Facebook} alt="Facebook" />
+                        <img className="footer_icon mr-2" src={Instagram} alt="Instagram" />
+                        <img className="footer_icon mr-2" src={Twitter} alt="Twitter" />
+                        <img className="footer_icon mr-2" src={WhatsApp} alt="WhatsApp" />
+                    </Link>
+                    <Link to="" className="text-white mb-2">E-books</Link>
+                </div>
+                <div className="col-md-2">
+                    <p>Join Our Newsletter</p>
+                    <p>Get exclusive news, features and updates from The Shredder Weight Loss Academy.</p>
+                </div>
             </div>
-            <div className="col-md-2 d-flex flex-column">
-                <Link to="" className="text-white mb-2">Need Help?</Link>
-                <Link to="" className="text-white mb-2">Help Center</Link>
-                <Link to="" className="text-white mb-2">Email Support</Link>
-                <Link to="" className="text-white mb-2">Live Chat</Link>
-                <Link to="" className="text-white mb-2">Gift Certificates</Link>
-                <Link to="" className="text-white mb-2">Send Us Feedback</Link>
-            </div>
-            <div className="col-md-2 d-flex flex-column">
-                <Link to="" className="text-white mb-2">Digital Resources</Link>
-                <Link to="" className="text-white mb-2">Articles</Link>
-                <Link to="" className="text-white mb-2">E-books</Link>
-            </div>
-            <div className="col-md-2 d-flex flex-column">
-                <Link to="" className="text-white mb-2">Connect with Us</Link>
-                <Link to="" className="text-white mb-2">
-                    <img className="footer_icon mr-2" src={YouTube} alt="YouTube"/>
-                    <img className="footer_icon mr-2" src={Facebook} alt="Facebook"/>
-                    <img className="footer_icon mr-2" src={Instagram} alt="Instagram"/>
-                    <img className="footer_icon mr-2" src={Twitter} alt="Twitter"/>
-                    <img className="footer_icon mr-2" src={WhatsApp} alt="WhatsApp"/>
-                </Link>
-                <Link to="" className="text-white mb-2">E-books</Link>
-            </div>
-            <div className="col-md-2">
-                <p>Join Our Newsletter</p>
-                <p>Get exclusive news, features and updates from The Shredder Weight Loss Academy.</p>
-            </div>
-        </div>
+            <p className="text-center pt-4"> &copy; {new Date().getFullYear()} mjrgeorge. All right reserved</p>
+        </footer>
     );
 };
 
