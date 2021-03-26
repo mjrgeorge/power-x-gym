@@ -1,9 +1,38 @@
-.header{
-    background-image: url(./images/image8.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 70vh;
-    font-weight: bolder;
-    color: black;
+.header {
+  background-image: url(./images/image8.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  color: black;
+}
+
+.navbarBrand {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.navLink {
+  color: black !important;
+}
+
+.joinBtn {
+  border-radius: none !important;
+  font-size: 35px !important;
+  font-weight: bold;
+  padding: 5px 35px !important;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer_icon {
+  width: 20px;
+  height: 20px;
+}
+.footer_icon:hover {
+  transform: scale(0.5, 0.5);
+  transition: 0.5s;
 }
