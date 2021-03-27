@@ -9,6 +9,7 @@ import Home from './components/home/Home.js';
 import NotMatch from './components/notMatch/NotMatch';
 import OurClasses from './components/ourClasses/OurClasses';
 import { createContext } from 'react';
+import ClassSchedule from './components/classSchedule/ClassSchedule';
 
 export const userContext = createContext();
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/class/:ourClass">
             <OurClasses />
+          </Route>
+          <Route path="/schedule/:classSchedule">
+            <ClassSchedule />
           </Route>
           <Route path="*">
             <NotMatch />

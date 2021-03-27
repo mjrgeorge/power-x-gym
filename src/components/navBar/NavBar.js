@@ -14,7 +14,7 @@ const NavBar = () => {
                     <Nav className="ml-auto">
                         <Link className="mr-3 h5 navLink text-decoration-none" to="/">Home</Link>
                         <Link className="mr-3 h5 navLink text-decoration-none" to="/">Services</Link>
-                        <Link className="mr-3 h5 navLink text-decoration-none" to="/class/Our Class">Our Classes</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/class/our class">Our Classes</Link>
                         <Link className="mr-3 h5 navLink text-decoration-none" to="/">About Us</Link>
                         <Link className="mr-3 h5 navLink text-decoration-none" to="/">Blog</Link>
                         <Link className="mr-3 h5 navLink text-decoration-none" to="/">Contact Us</Link>
