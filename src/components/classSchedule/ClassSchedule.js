@@ -20,7 +20,7 @@ const ClassSchedule = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row container my-5">
+                <div className="row my-5">
                     <div className="col-md-7">
                         <img className="img-fluid" src={ClassImage} alt="ClassImage" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus doloribus consequuntur, itaque expedita ea totam atque. Minima eos reprehenderit neque iusto autem pariatur explicabo ex delectus quidem officia? Incidunt, facere aut. Soluta expedita blanditiis iusto omnis tempore ut, corporis quia, dolore hic nobis, quaerat ratione facere dignissimos voluptatibus sunt! Ipsam possimus voluptate cum perspiciatis est quis esse odio animi pariatur amet reprehenderit veritatis sint consequatur vitae saepe voluptatibus dolor, distinctio minus obcaecati officia iure quo sequi unde eligendi. Nemo.</p>

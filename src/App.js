@@ -10,6 +10,7 @@ import NotMatch from './components/notMatch/NotMatch';
 import OurClasses from './components/ourClasses/OurClasses';
 import { createContext } from 'react';
 import ClassSchedule from './components/classSchedule/ClassSchedule';
+import PricePlan from './components/pricePlan/PricePlan';
 
 export const userContext = createContext();
 
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/schedule/:classSchedule">
             <ClassSchedule />
+          </Route>
+          <Route path="/pricePlan">
+            <PricePlan />
           </Route>
           <Route path="*">
             <NotMatch />
