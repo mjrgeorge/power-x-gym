@@ -3,7 +3,7 @@ import AboutPic from '../../images/image20.jpg';
 
 const About = () => {
     return (
-        <div className="row my-5 p-3">
+        <div className="row my-5 pl-3 pt-5">
             <div className="col-md-6"  style={{backgroundImage: `url(${AboutPic})`, backgroundPosition: "top center", backgroundSize: "cover"}}> </div>
             <div className="col-md-6">
                 <div className="pb-5 pl-5 pr-5">

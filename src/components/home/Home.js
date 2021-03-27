@@ -3,7 +3,7 @@ import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import About from './About';
 import ChooseUs from './ChooseUs';
-import WorkOut from './Information';
+import Information from './Information';
 import TrainingPrograms from './TrainingPrograms';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container-fluid">
             <Header />
             <div className="m-5 p-5">
-                <WorkOut />
+                <Information />
                 <About/>
                 <TrainingPrograms/>
                 <ChooseUs/>

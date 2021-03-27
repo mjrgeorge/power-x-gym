@@ -3,17 +3,17 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  min-height: 75vh;
   color: black;
 }
 
 .navbarBrand {
   font-size: 35px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .navLink {
-  color: black !important;
+  color: white !important;
 }
 
 .joinBtn {
