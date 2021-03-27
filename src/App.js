@@ -9,14 +9,12 @@ import Home from './components/home/Home.js';
 import NotMatch from './components/notMatch/NotMatch';
 import OurClasses from './components/ourClasses/OurClasses';
 import { createContext } from 'react';
-import { useState } from 'react';
 
 export const userContext = createContext();
 
 function App() {
-  const [pathName, setPathName] = useState("");
   return (
-    <userContext.Provider value={[pathName, setPathName]}>
+    <userContext.Provider value="">
       <Router>
         <Switch>
           <Route exact path="/">

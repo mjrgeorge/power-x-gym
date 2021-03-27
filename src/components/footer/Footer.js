@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="footer p-4">
             <div className="row">
                 <div className="col-md-4">
-                    <h2 className="text-center">POWER <span className="text-warning">X</span></h2>
+                    <Link to="/" className="navbarBrand text-decoration-none"> <p className="text-white text-center">POWER <span className="text-warning">X</span></p></Link>
                 </div>
                 <div className="col-md-2 d-flex flex-column">
                     <Link to="" className="text-white mb-2">Need Help?</Link>

@@ -13,7 +13,11 @@
 }
 
 .navLink {
-  color: white !important;
+  color: white;
+}
+
+.navLink:hover {
+  color: gold;
 }
 
 .joinBtn {

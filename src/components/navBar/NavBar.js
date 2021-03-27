@@ -1,22 +1,23 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <>
             <Navbar bg="transparent" variant="light" expand="lg">
-                <Navbar.Brand href="/">
-                    <span className="navbarBrand"> <span className="text-white">POWER</span> <span className="text-warning">X</span></span>
+                <Navbar.Brand>
+                    <Link to="/" className="navbarBrand text-decoration-none"> <span className="text-white">POWER</span> <span className="text-warning">X</span></Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className="mr-2 h5 navLink" href="/">Home</Nav.Link>
-                        <Nav.Link className="mr-2 h5 navLink" href="/">Services</Nav.Link>
-                        <Nav.Link className="mr-2 h5 navLink" href="/class/Our Class">Our Classes</Nav.Link>
-                        <Nav.Link className="mr-2 h5 navLink" href="/">About Us</Nav.Link>
-                        <Nav.Link className="mr-2 h5 navLink" href="/">Blog</Nav.Link>
-                        <Nav.Link className="mr-2 h5 navLink" href="/">Contact Us</Nav.Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/">Home</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/">Services</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/class/Our Class">Our Classes</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/">About Us</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/">Blog</Link>
+                        <Link className="mr-3 h5 navLink text-decoration-none" to="/">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

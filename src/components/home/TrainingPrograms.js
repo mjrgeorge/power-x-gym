@@ -11,15 +11,15 @@ const TrainingPrograms = () => {
             <CardDeck>
                 <Card style={{ height: "350px", backgroundImage: `url(${TrainingOne})`, backgroundPosition: "center center", backgroundSize: "cover", color: "white" }}>
                     <Card.Body className="d-flex flex-column justify-content-end">
-                        <Card.Title style={{ fontSize: "45px", marginLeft:"-22px", paddingLeft:"-22px" }}>
-                            <Button variant="warning"><big>YOGA TRAINING SESSION &rarr;</big></Button>
+                        <Card.Title>
+                            <Button variant="warning" style={{marginLeft:"-22px"}}><big>YOGA TRAINING SESSION &rarr;</big></Button>
                         </Card.Title>
                     </Card.Body>
                 </Card>
                 <Card style={{ height: "350px", backgroundImage: `url(${TrainingTwo})`, backgroundPosition: "center center", backgroundSize: "cover", color: "white" }}>
                 <Card.Body className="d-flex flex-column justify-content-end">
-                        <Card.Title style={{ fontSize: "45px", marginLeft:"-22px", paddingLeft:"-22px" }}>
-                        <Button variant="warning"><big>CARDIO TRAINING SESSION &rarr;</big></Button>
+                        <Card.Title>
+                        <Button variant="warning" style={{marginLeft:"-22px"}}><big>CARDIO TRAINING SESSION &rarr;</big></Button>
                         </Card.Title>
                     </Card.Body>
                 </Card>
