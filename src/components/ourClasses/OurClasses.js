@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
-import { useParams } from 'react-router';
+import { Card } from 'react-bootstrap';
 import Footer from '../footer/Footer';
 import Psycho from '../../images/image17.png';
 import Self from '../../images/image3.jpg';
@@ -12,13 +11,12 @@ import NavBar from '../navBar/NavBar';
 import { Link } from 'react-router-dom';
 
 const OurClasses = () => {
-    const { ourClass } = useParams();
     return (
         <div className="container-fluid">
             <div className="header">
                 <NavBar />
                 <div style={{ height: '65vh' }} className="d-flex justify-content-center align-items-center">
-                    <p className="text-white display-4 text-uppercase">{ourClass}</p>
+                    <p className="text-white display-4 text-uppercase">Our Class</p>
                 </div>
             </div>
             <div className="container">

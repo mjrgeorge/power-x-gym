@@ -11,6 +11,7 @@ import OurClasses from './components/ourClasses/OurClasses';
 import { createContext } from 'react';
 import ClassSchedule from './components/classSchedule/ClassSchedule';
 import PricePlan from './components/pricePlan/PricePlan';
+import MembershipData from './components/membership/MembershipData';
 
 export const userContext = createContext();
 
@@ -25,7 +26,7 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/class/:ourClass">
+          <Route path="/class">
             <OurClasses />
           </Route>
           <Route path="/schedule/:classSchedule">
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/pricePlan">
             <PricePlan />
+          </Route>
+          <Route path="/membership/:packageName">
+            <MembershipData />
           </Route>
           <Route path="*">
             <NotMatch />

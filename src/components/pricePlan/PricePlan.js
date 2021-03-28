@@ -11,6 +11,7 @@ const PricePlan = () => {
     const checkIcon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
     </svg>;
+
     return (
         <div className="container-fluid">
             <div className="header">
@@ -37,7 +38,7 @@ const PricePlan = () => {
                                 <li>{checkIcon} Outstanding</li>
                                 <li>{checkIcon} Happy Customers</li>
                             </ul>
-                            <Link to="/" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
+                            <Link to="/membership/advance plan" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
                         </Card.Body>
                     </Card>
                     <Card style={{ height: "500px", backgroundImage: `url(${priceTwo})`, backgroundPosition: "center center", backgroundSize: "cover", color: "white" }}>
@@ -52,7 +53,7 @@ const PricePlan = () => {
                                 <li>{checkIcon} Outstanding</li>
                                 <li>{checkIcon} Happy Customers</li>
                             </ul>
-                            <Link to="/" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
+                            <Link to="/membership/basic plan" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
                         </Card.Body>
                     </Card>
                     <Card style={{ height: "500px", backgroundImage: `url(${priceThree})`, backgroundPosition: "center center", backgroundSize: "cover", color: "white" }}>
@@ -67,7 +68,7 @@ const PricePlan = () => {
                                 <li>{checkIcon} Outstanding</li>
                                 <li>{checkIcon} Happy Customers</li>
                             </ul>
-                            <Link to="/" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
+                            <Link to="/membership/beginners plan" className="btn btn-warning mt-3"><big>PURCHASE</big></Link>
                         </Card.Body>
                     </Card>
                 </CardDeck>

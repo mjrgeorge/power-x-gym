@@ -64,7 +64,7 @@ const ClassSchedule = () => {
                             </div>
                         </div>
                         <div className="text-right">
-                            <Link to="/" className="joinBtn btn btn-warning">JOIN US</Link>
+                            <Link to="/pricePlan" className="joinBtn btn btn-warning">JOIN US</Link>
                         </div>
                     </div>
                 </div>
