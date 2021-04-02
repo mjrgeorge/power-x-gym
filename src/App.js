@@ -12,6 +12,7 @@ import { createContext } from 'react';
 import ClassSchedule from './components/classSchedule/ClassSchedule';
 import PricePlan from './components/pricePlan/PricePlan';
 import MembershipData from './components/membership/MembershipData';
+import Payment from './components/membership/Payment';
 
 export const userContext = createContext();
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/membership/:packageName">
             <MembershipData />
+          </Route>
+          <Route path="/payment">
+            <Payment />
           </Route>
           <Route path="*">
             <NotMatch />
