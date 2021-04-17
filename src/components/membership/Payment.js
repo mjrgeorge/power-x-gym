@@ -13,11 +13,8 @@ const Payment = () => {
                     <p className="text-white display-4 text-uppercase">Payment</p>
                 </div>
             </div>
-            <div className="container my-5">
-                <PayPal/>
-                <div className="text-right mt-2">
-                    <Link to="/payment" className="joinBtn btn btn-warning">NEXT</Link>
-                </div>
+            <div className="container my-5 text-center">
+                <PayPal />
             </div>
             <Footer />
         </div>
